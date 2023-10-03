@@ -1,16 +1,16 @@
 [
   {
     "kernelSource": {
-      "name": "Wayne_KenrlSU_Google",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "Pixel3_KernelSU_A12_PE",
+      "repo": "https://github.com/spaceskynet/kernel_google_bluecross_kernelsu",
+      "branch": "twelve",
+      "device": "blueline",
+      "defconfig": "b1c1_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/4bb6424cb1615af408ae80871131f4da8c4ddadf/clang-r450784d.tar.gz",
         "name": "clang",
         "binPath": ["./bin"]
       },
@@ -44,8 +44,8 @@
     "AnyKernel3": {
       "use": false,
       "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/osm0sis/AnyKernel3/",
+      "branch": "master"
     }
   }
 ]
